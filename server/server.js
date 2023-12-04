@@ -56,7 +56,7 @@ const mongoose = require('mongoose');
 const { typeDefs, resolvers } = require('./schemas');
 
 const PORT = process.env.PORT || 3002;
-const MONGODB_URI = 'mongodb+srv://pattersonal10:Somerhalder32@googlebooksearchproject.kqxaezx.mongodb.net/'; 
+const MONGODB_URI = 'mongodb+srv://pattersonal10:smash123@googlebooksearchproject.kqxaezx.mongodb.net/'; 
 
 const app = express();
 const server = new ApolloServer({
